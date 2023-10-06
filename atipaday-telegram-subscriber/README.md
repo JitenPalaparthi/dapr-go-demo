@@ -1,0 +1,1 @@
+ dapr run --app-id atipaday-telegram --app-port 50091 --resources-path=components/ --  go run main.go

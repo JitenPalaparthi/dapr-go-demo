@@ -1,0 +1,14 @@
+curl --location 'localhost:50090/v1/private/tip' \
+--header 'Cookie: JSESSIONID=A7DE7FBA7823FD2E375C0DCFC907D71C' \
+--header 'Content-Type: application/json' \
+--data '{
+    "type":"Language",
+    "sub_type":"English",
+    "data":{
+        "word":"badgering",
+        "type":"verb",
+        "youtube":"https://youtu.be/WTAhXstA1u0?si=_wHbd7VZX5o6zSDV&t=64",
+        "sentences":["India has been badgering Canada about terrorism"]
+    }
+}'
+
